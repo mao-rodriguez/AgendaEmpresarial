@@ -22,6 +22,7 @@ from Modulos.Contactos import views
 
 router = routers.DefaultRouter()
 router.register(r'empresas', views.EmpresaView, 'empresa')
+router.register(r'contactos', views.ContactoView, 'contacto')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
