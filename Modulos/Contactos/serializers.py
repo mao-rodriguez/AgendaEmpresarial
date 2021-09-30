@@ -9,7 +9,6 @@ class ContactoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contacto
         fields = (
-                    'Id',
                     'Nombre',
                     'Apellido',
                     'Compañia',
