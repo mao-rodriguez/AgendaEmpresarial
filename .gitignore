@@ -226,3 +226,4 @@ venv.bak/
 
 # End of https://www.gitignore.io/api/linux,macos,python,django,pycharm
 AgendaEmpresarial/AgendaEmpresarial.db
+AgendaEmpresarial.db
