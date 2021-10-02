@@ -4,7 +4,8 @@ from django.db.models.base import Model
 # Create your models here.
 
 class Empresa(models.Model):
-    NIT = models.CharField(max_length=11, primary_key=True)
+    #Id = models.CharField (max_length=10, primary_key=True)
+    NIT = models.CharField(max_length=11)
     Nombre = models.CharField(max_length=50)
     Telefono =  models.CharField(max_length=10)
     Direccion =  models.CharField(max_length= 100)
@@ -15,7 +16,6 @@ class Empresa(models.Model):
         return txt.format(self.Nombre)
 
 class Contacto(models.Model):
-    Id = models.CharField (max_length=10, primary_key=True)
     Nombre = models.CharField(max_length=20)
     Apellido = models.CharField(max_length=20)
     Compañia =  models.ForeignKey(Empresa, null=False, blank=False, on_delete=models.CASCADE)
