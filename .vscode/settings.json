@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5e3b3c6f-6bb9-49ff-95c5-70b846b9cc9d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/agendaempresarial",
+    "appService.deploySubpath": "."
+}
