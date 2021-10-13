@@ -4,11 +4,12 @@ from .models import *
 class EmpresaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Empresa
-        fields = ('NIT', 'Nombre', 'Telefono', 'Direccion', 'Ciudad')
+        fields = ('id', 'NIT', 'Nombre', 'Telefono', 'Direccion', 'Ciudad')
 class ContactoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contacto
         fields = (
+                    'id',
                     'Nombre',
                     'Apellido',
                     'Compañia',
