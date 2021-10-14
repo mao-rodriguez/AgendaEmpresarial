@@ -135,6 +135,7 @@ STATICFILES_DIRS=[
 ] 
 
 CORS_ORIGIN_WHITELIST = [
+    'https://pypi.org/project/django-cors-headers/',
      'http://localhost:3000'
 ]
 
