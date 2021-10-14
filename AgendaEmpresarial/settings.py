@@ -135,7 +135,7 @@ STATICFILES_DIRS=[
 ] 
 
 CORS_ORIGIN_WHITELIST = [
-    'https://pypi.org/project/django-cors-headers/',
+    'https://agendaempresarial.herokuapp.com/',
      'http://localhost:3000'
 ]
 
